@@ -1,0 +1,50 @@
+nav
+{
+  display: block;
+  width: 300px;
+  position: fixed;
+  top: 85px;
+  left: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  opacity: .1;
+  transition: all .8s ease-out;
+  overflow: hidden;
+}
+nav p
+{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+nav a
+{
+  text-decoration: none;
+  font-size: 15px;
+
+}
+nav ul
+{
+  list-style-type: none;
+}
+nav li
+{
+  line-height: 14px;
+  margin: 6px 0;
+}
+nav ul > ul
+{
+  margin-left: 10px;
+  color: #777;
+}
+nav:hover
+{
+  opacity: 1;
+  transition: all .1s ease-out;
+}
+nav > ul > li:first-child{
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 16px;
+  width: 100%;
+}
